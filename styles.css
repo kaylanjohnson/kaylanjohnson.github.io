@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f2937;
+  background: #f4f7fb;
+}
+.container {
+  width: min(1000px, 92%);
+  margin: 0 auto;
+}
+.site-header {
+  background: linear-gradient(135deg, #0f4c81, #1479c9);
+  color: white;
+  padding: 4rem 0 3rem;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+h1 {
+  font-size: clamp(2.3rem, 6vw, 4rem);
+  margin: 0.2rem 0 1rem;
+}
+.intro {
+  max-width: 760px;
+  font-size: 1.1rem;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+nav a:hover {
+  border-bottom-color: white;
+}
+main {
+  padding: 2.5rem 0;
+}
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 24px rgba(15, 76, 129, 0.08);
+}
+h2, h3 {
+  color: #0f4c81;
+}
+.button {
+  display: inline-block;
+  background: #0f4c81;
+  color: white;
+  padding: 0.75rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.links a {
+  color: #0f4c81;
+}
+.note {
+  font-size: 0.92rem;
+  color: #4b5563;
+}
+.status {
+  display: inline-block;
+  background: #e5eef7;
+  color: #0f4c81;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+footer {
+  background: #102a43;
+  color: white;
+  padding: 1.25rem 0;
+  text-align: center;
+}
